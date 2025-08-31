@@ -2,6 +2,8 @@
 
 ![cerebralmisfire.net](images/cerebralmisfire.png)
 
-## Source code of https://cerebralmisfire.net
+## Source
+
+This is the source code for https://cerebralmisfire.net
 
 
