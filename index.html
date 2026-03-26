@@ -106,6 +106,33 @@
         color: var(--text-dim);
       }
 
+      .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+      }
+
+      .folio-section {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+        max-width: 900px;
+      }
+
+      .folio-section img {
+        width: auto;
+        height: 100px;
+        flex-shrink: 0;
+      }
+
+      .folio-section p {
+        margin: 0;
+        font-size: 0.95rem;
+        color: var(--text-dim);
+        line-height: 1.5;
+      }
+
       @media (max-width: 480px) {
         .github-link {
           font-size: 1.6rem;
@@ -117,6 +144,10 @@
           bottom: 14px;
           font-size: 0.9rem;
           padding: 5px 8px;
+        }
+        .folio-section {
+          flex-direction: column;
+          text-align: center;
         }
       }
     </style>
@@ -132,7 +163,14 @@
       <span class="sr-only">Cerebral Misfire on GitHub</span>
     </a>
 
-    <img src="images/logo.png" alt="Cerebral Misfire" />
+    <div class="main-content">
+      <img src="images/logo.png" alt="Cerebral Misfire" />
+
+      <div class="folio-section">
+        <img src="images/folio.svg" alt="Folio" />
+        <p><strong>COMING IN 2026:</strong> A self-hosted web application for following academic journals, collecting articles, and building a personal research feed named <i>Folio</i>.</p>
+      </div>
+    </div>
 
     <div class="caption">
       The nerd side of

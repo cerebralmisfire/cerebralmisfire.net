@@ -1,0 +1,43 @@
+<svg width="540" height="120" viewBox="0 0 540 120"
+     xmlns="http://www.w3.org/2000/svg">
+  <defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=DM+Sans:wght@300;400&amp;display=swap');
+  </style>
+</defs>
+  
+  <g transform="translate(28,14) scale(1.15)">
+    <!-- back page -->
+    <rect x="10" y="6" width="52" height="66" rx="3"
+          fill="none" stroke="#1A1A18" stroke-width="1.4" opacity="0.32"/>
+    <!-- mid page -->
+    <rect x="5" y="3" width="52" height="66" rx="3"
+          fill="none" stroke="#1A1A18" stroke-width="1.4" opacity="0.58"/>
+    <!-- front page body -->
+    <path d="M0 0 L40 0 L52 12 L52 66 Q52 69 49 69 L3 69 Q0 69 0 66 Z"
+          fill="#FFFFFF" stroke="#1A1A18" stroke-width="1.6" stroke-linejoin="round"/>
+    <!-- folded corner -->
+    <path d="M40 0 L40 12 L52 12"
+          fill="none" stroke="#1D9E75" stroke-width="1.6" stroke-linejoin="round"/>
+    <!-- corner fill -->
+    <path d="M40 0 L52 12 L40 12 Z" fill="#1D9E75" opacity="0.14"/>
+    <!-- text lines -->
+    <line x1="8" y1="24" x2="38" y2="24" stroke="#1A1A18" stroke-width="1.2" opacity="0.28"/>
+    <line x1="8" y1="32" x2="44" y2="32" stroke="#1A1A18" stroke-width="1.2" opacity="0.20"/>
+    <line x1="8" y1="40" x2="36" y2="40" stroke="#1A1A18" stroke-width="1.2" opacity="0.20"/>
+    <line x1="8" y1="48" x2="42" y2="48" stroke="#1A1A18" stroke-width="1.2" opacity="0.20"/>
+    <!-- feed dots -->
+    <circle cx="8"  cy="58" r="3.5" fill="#1D9E75"/>
+    <circle cx="18" cy="58" r="3.5" fill="none" stroke="#1A1A18" stroke-width="1" opacity="0.28"/>
+    <circle cx="28" cy="58" r="3.5" fill="none" stroke="#1A1A18" stroke-width="1" opacity="0.18"/>
+  </g>
+  <!-- wordmark -->
+  <text x="108" y="74"
+        font-family="'DM Serif Display', 'Georgia', serif"
+        font-size="60" font-weight="400" fill="#1A1A18" letter-spacing="-1">Folio</text>
+  <!-- tagline -->
+  <text x="110" y="96"
+        font-family="'DM Sans', 'Helvetica Neue', sans-serif"
+        font-size="12" font-weight="300" fill="#5F5E5A"
+        letter-spacing="3.5">YOUR RESEARCH FEED</text>
+</svg>
